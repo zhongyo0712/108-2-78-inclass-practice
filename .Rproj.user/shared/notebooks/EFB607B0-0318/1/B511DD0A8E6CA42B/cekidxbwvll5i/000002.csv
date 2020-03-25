@@ -1,0 +1,7 @@
+"0","studentId <- c(410773002, 410773015)"
+"0","studentId= as.character(studentId)"
+"0","class(studentId)"
+"1","[1]"
+"1"," ""character"""
+"1","
+"
