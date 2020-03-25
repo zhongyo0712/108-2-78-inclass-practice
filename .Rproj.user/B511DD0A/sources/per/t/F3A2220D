@@ -8,11 +8,12 @@
     "hash" : "3904355907",
     "id" : "F3A2220D",
     "lastKnownWriteTime" : 1584522743,
-    "last_content_update" : 1584522743495,
+    "last_content_update" : 1585119795794,
     "path" : "C:/github/108-2-78-inclass-practice/0318.R",
     "project_path" : "0318.R",
     "properties" : {
-        "cursorPosition" : "0,1",
+        "cursorPosition" : "8,1",
+        "docOutlineVisible" : "1",
         "scrollLine" : "0",
         "tempName" : "Untitled1"
     },
@@ -22,5 +23,5 @@
     "relative_order" : 1,
     "source_on_save" : false,
     "source_window" : "",
-    "type" : "r_source"
+    "type" : "r_markdown"
 }
