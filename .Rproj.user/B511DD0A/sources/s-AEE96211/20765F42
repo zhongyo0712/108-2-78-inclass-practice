@@ -1,0 +1,26 @@
+{
+    "collab_server" : "",
+    "contents" : "",
+    "created" : 1586179825482.000,
+    "dirty" : false,
+    "encoding" : "",
+    "folds" : "",
+    "hash" : "0",
+    "id" : "20765F42",
+    "lastKnownWriteTime" : 1585127331,
+    "last_content_update" : 1586179825482,
+    "path" : null,
+    "project_path" : null,
+    "properties" : {
+        "id" : "92d54f5ac1dc46e3b70f98a366d2e7c3",
+        "name" : "小明",
+        "title" : "小明"
+    },
+    "read_only" : false,
+    "read_only_alternatives" : [
+    ],
+    "relative_order" : 5,
+    "source_on_save" : false,
+    "source_window" : "",
+    "type" : "object_explorer"
+}
