@@ -65,6 +65,15 @@ str_extract(
 ) # 回傳vector 
 ```
 ```{r}
+a <- c("1","b","TRUE")
+a
+a[[2]] <- "c" # 元素存在: 替換
+a[[4]] <- "7" # 元素不存在： 增加
+a[c(5,6)] <- c("J", "K")
+a
+```
+
+```{r}
 install.packages(c("htmlwidgets"))
 heartSutra <- c("舍利子，色不異空，空不異色；色即是空，空即是色。")
 str_view_all(heartSutra,"色") # 檢視

@@ -1,0 +1,51 @@
+```{r}
+# p=1.2的需求量
+p=1.2
+qd <- 10-5*p # 小心是5*p, 不能寫5p
+# p=1.3的需求量
+p=1.3
+qd <- 10-5*p
+# p=1.4的需求量
+p=1.4
+qd <- 10-5*p
+demand <- # 創造一個物件叫demand
+  function(p){ # 定義這個物件為函數
+    q_d <- 10-5*p # 小心是5*p, 不能寫5p
+  }
+```
+
+```{r}
+demand_return <- 
+  function(p){
+    q_d <- 10-5*p
+    return(q_d)
+  }
+# 印在螢幕，但Global Environment並不會有q_d
+demand_return(1.2)
+```
+```{r}
+library(lubridate)
+dateInput <- today()
+locationInput <- "新北市"
+```
+```{r}
+
+demand_return <- 
+  function(p){
+    q_d <- 10-5*p
+    return(q_d)
+  }
+# 印在螢幕，但Global Environment並不會有q_d
+demand_return(1.2)
+# 查詢函數執行所要求環境
+environment(demand_return)
+# 若函數執行需要Global environment已存在某些物件，查詢需要哪些物件
+codetools::findGlobals(demand_return)
+intercept <- 10
+slope <- -5
+myDemand <- function(p){
+  q_d <- intercept + slope*p
+  return(q_d)
+}
+```
+
