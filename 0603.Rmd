@@ -48,4 +48,18 @@ myDemand <- function(p){
   return(q_d)
 }
 ```
+```{r}
+phrase <- c("唧唧复唧唧")
+# 目標是前面的唧唧
+
+str_view(phrase,"^唧唧")
+```
+```{r}
+str_extract_all("我的名字8293叫17380小abce明", "[一-\u9fff]+")
+```
+```{r}
+char1 <- c("Wild", "Apple", "Donald", "May", "Avocada")
+factor1 <- factor(char1)
+print(factor1)
+```
 
